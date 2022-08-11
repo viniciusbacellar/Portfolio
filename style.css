@@ -1,0 +1,62 @@
+/* ESTILOS GERAIS + RESET */
+* {
+  font-family: 'Roboto Slab', serif !important;
+  color: #3d4449 !important;
+  margin: 0;
+	padding: 0 !important;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  text-decoration: none !important;
+  } 
+
+/* NAVEGAÇÃO */
+
+#navegacao {
+  border-bottom: 5px solid #A66CFF;
+}
+
+#home:hover {
+  color: #A66CFF !important;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in; 
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+}
+
+.icon:hover {
+  fill: #A66CFF;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in; 
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in
+}
+
+/* HEADER */
+
+#header {
+  border-bottom: 2px solid #DDE1E2;
+
+}
+#header > h1 {
+font-size: 3.2em;
+}
+
+/* TECNOLOGIAS */
+
+#tecnologias > #h2-tec {
+  display: inline-block;
+  border-bottom: 3px solid #A66CFF;
+
+}
+
+
+
+
+
