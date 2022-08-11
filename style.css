@@ -50,11 +50,19 @@ font-size: 3.2em;
 
 /* TECNOLOGIAS */
 
-#tecnologias > #h2-tec {
+#tecnologias > div {
+  display: block;
+}
+
+#h2-tec {
+  font-size: 1.8em;
   display: inline-block;
   border-bottom: 3px solid #A66CFF;
-
+  margin: 0 0 2em 0;
+  padding: 0 0.75em 0.5em 0 !important;
 }
+
+
 
 
 
