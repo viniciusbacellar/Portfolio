@@ -33,13 +33,9 @@
   transition: 0.3s ease-in
 }
 
-.icon {
-  width: 2em;
-  height: 2em;
-}
 
 .icon:hover {
-  fill: #A66CFF;
+  color: #A66CFF;
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in; 
   -o-transition: 0.3s ease-in;
