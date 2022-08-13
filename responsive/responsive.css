@@ -1,0 +1,65 @@
+@media (max-width: 991px) {
+  #projetos div.pe-5 {
+    border: none;
+  }
+
+
+  #cripto {
+    border-bottom: 2px solid #DDE1E2 !important;
+  }
+
+  #dsmovie {
+    border-bottom: 2px solid #DDE1E2;
+  }
+
+  #projetos div {
+    padding: 0 ;
+  }
+
+  #dsmovie {
+    padding-left: 0 !important;
+  }
+  #cripto {
+    padding-right: 0 !important;
+  }
+  #covid {
+    padding-right: 0 !important;
+  }
+  #projetos div img {
+    max-width: 991px;
+  }
+}
+
+@media (max-width: 390px) {
+ h1 {
+  font-size: 2em;
+ }
+
+ .div-icon::after {
+  height: 6em;
+  width: 6em;
+  margin: -3em 0 0 -3em;
+ }
+
+ .div-text {
+  text-align: left;
+ }
+
+ #projetos {
+  margin-top: 40px;
+  padding: 0 10px 0 10px !important;
+ }
+
+ #tecnologias {
+  padding: 0 10px 0 10px;
+ }
+
+ 
+
+}
+
+@media (max-width: 429px) {
+  footer span {
+    font-size: 14px;
+   }
+}

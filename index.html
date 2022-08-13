@@ -10,7 +10,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="icon" href="./img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./responsive/responsive.css">
   <title>Portfólio</title>
   <script src="https://kit.fontawesome.com/d8f8111b91.js" crossorigin="anonymous"></script>
 
@@ -33,15 +37,15 @@
       </div>
     </nav>
     <!-- HEADER -->
-    <header class="row py-5" id="header">
+    <header class="row py-5 section-tema" id="header">
       <h1>Olá mundo, meu nome é Vinícius!<br>bem-vindo ao meu portfólio</h1>
       <p class="pt-4">A seguir, você verá um acervo de meus projetos pessoais, habilidades, hobbies e tecnologias</p>
     </header>
 
     <!-- TECNOLOGIAS -->
-    <section class="row py-5" id="tecnologias">
+    <section class="row py-5 section-tema" id="tecnologias">
       <div>
-        <h2 id="h2-tec">Tecnologias</h2>
+        <h2 class="h2">Tecnologias</h2>
       </div>
       <!-- JAVA -->
       <div class="col-lg-6 my-5">
@@ -50,7 +54,7 @@
             <span class="fa-brands fa-java fa-4x fa-inverse cor-icon"></span>
           </div>
           <div class="div-text px-5">
-            <h2>Java</h2>
+            <h3>Java</h3>
             <p>É a linguagem na qual mais me dedico, e o meu principal objetivo atualmente.</p>
           </div>
         </div>
@@ -63,7 +67,7 @@
             <i class="fa-brands fa-js fa-4x fa-inverse cor-icon"></i>
           </div>
           <div class="div-text px-5">
-            <h2>JavaScript</h2>
+            <h3>JavaScript</h3>
             <p>Devido a projetos anteriores, possuo experiência utilizando-a em aplicações front-end.</p>
           </div>
         </div>
@@ -76,7 +80,7 @@
             <i class="fa-brands fa-bootstrap fa-4x fa-inverse cor-icon"></i>
           </div>
           <div class="div-text px-5">
-            <h2>BootStrap</h2>
+            <h3>BootStrap</h3>
             <p>Framework que utilizei no auxílio do CSS3 juntamente com toda experiência que tive com JavaScript.</p>
           </div>
         </div>
@@ -89,7 +93,7 @@
             <img src="./img/sql.svg" alt="sql" class="icon-img">
           </div>
           <div class="div-text px-5">
-            <h2>SQL</h2>
+            <h3>SQL</h3>
             <p>Tive experiência em diversos projetos acadêmicos com MySQL e PostgreSQL para criação de API restful.</p>
           </div>
         </div>
@@ -102,8 +106,8 @@
             <img src="./img/spring-boot.svg" alt="springboot" class="icon-img">
           </div>
           <div class="div-text px-5">
-            <h2>Spring Boot</h2>
-            <p>Framework que utilizo para desenvolver API's juntamente com meu conhecimento na linguagem de programação java</p>
+            <h3>Spring Boot</h3>
+            <p>Framework que utilizo para desenvolver API's juntamente com meu conhecimento na linguagem de programação java.</p>
           </div>
         </div>
       </div>
@@ -112,21 +116,56 @@
       <div class="col-lg-6 my-5">
         <div class="d-flex align-items-center">
           <div class="div-icon">
-            <span class="fa-brands fa-css3-alt fa-4x fa-inverse cor-icon"></span>
+            <i class="fa-brands fa-css3-alt fa-4x fa-inverse cor-icon"></i>
           </div>
           <div class="div-text px-5">
-            <h2>CSS</h2>
-            <p>Linguagem que utilizo em praticamente todo projeto que eu desenvolvo.</p>
+            <h3>CSS</h3>
+            <p>Linguagem de formatação que utilizei em quase todos os projetos que fiz, tanto em cursos quanto na faculdade.</p>
           </div>
         </div>
       </div>
+    </section>
 
+    <!-- PROJETOS -->
+    <section class="row py-5 section-tema" id="projetos">
+      <div>
+        <h2 class="h2">Projetos</h2>
+      </div>
+      <div class="col-lg-6 pe-5 mb-5 pb-5 projeto" id="cripto">
+        <div class="container-img">
+          <img src="./img/consult-cripto.png" alt="consult-cripto">
+        </div>
+        <h3 class="mt-4 mb-3">Consult Cripto</h3>
+        <p>Projeto feito para a busca dos valores em reais de uma criptomoeda específica no qual o valor é retornado de uma API publica de criptomoedas.</p>
+        <a href="https://github.com/viniciusbacellar/Consult-Cripto" target="_blank" class="btn-link">ver no github</a>
+      </div>
 
+      <div class="col-lg-6 ps-5 mb-5 pb-5 projeto" id="dsmovie">
+        <div class="container-img">
+          <img src="./img/dsmovie.png" alt="dsmovie">
+        </div>
+        <h3 class="mt-4 mb-3">DSmovie</h3>
+        <p>Este projeto é um catálogo de avaliação para filmes feito de ponta a ponta o frontend e o backend, desenvolvido no evento da semana spring react.</p>
+        <a href="https://github.com/viniciusbacellar/dsmovie" target="_blank" class="btn-link">ver no github</a>
+      </div>
+
+      <div class="col-lg-6 pe-5 mb-5 pb-5 projeto" id="covid">
+        <div class="container-img">
+          <img src="./img/covid-brasil.png" alt="covidbrasil">
+        </div>
+        <h3 class="mt-4 mb-3">COVID BRASIL</h3>
+        <p>Projeto feito no meu 2º período da faculdade no qual o objetivo era auxiliar as pessoas com a desinformação durante a pandemia do covid e também outras doenças contagiosas.</p>
+        <a href="https://github.com/viniciusbacellar/COVID_BRASIL" target="_blank" class="btn-link">ver no github</a>
+      </div>
     </section>
   </div>
 
 
-
+  <footer>
+    <div class="container">
+      <span>&copy; 2022-2022 Vinícius Bacellar. Todos os direitos reservados.</span>
+    </div>
+  </footer>
 
   <script src="./script.js"></script>
   <script src="./bibliotecas/bootstrap.min.js"></script>

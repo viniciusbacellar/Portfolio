@@ -2,7 +2,7 @@
 * {
   font-family: 'Roboto Slab', serif !important;
   margin: 0;
-	padding: 0 !important;
+	padding: 0 ;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -14,9 +14,39 @@
     color: #3d4449 !important;
   }
 
+  h1 {
+    font-size: 3.2em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-family: ;
+    color: #7f888f !important;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif !important;
+  }
+
   img {
-    max-width: 100%;
+    width: 100%;
     display: block;
+  }
+
+  .h2 {
+    display: inline-block;
+    border-bottom: 3px solid #A66CFF;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0 !important;
+  }
+
+  .section-tema {
+    border-bottom: 2px solid #DDE1E2;
   }
 
 /* NAVEGAÇÃO */
@@ -44,27 +74,9 @@
 
 /* HEADER */
 
-#header {
-  border-bottom: 2px solid #DDE1E2;
-
-}
-#header > h1 {
-font-size: 3.2em;
-}
 
 /* TECNOLOGIAS */
 
-#tecnologias > div {
-  display: block;
-}
-
-#h2-tec {
-  font-size: 1.8em;
-  display: inline-block;
-  border-bottom: 3px solid #A66CFF;
-  margin: 0 0 2em 0;
-  padding: 0 0.75em 0.5em 0 !important;
-}
 
 .cor-icon {
   --fa-inverse: #A66CFF;
@@ -102,8 +114,64 @@ font-size: 3.2em;
 }
 
 
+/* PROJETOS */
+
+#projetos {
+  border: none;
+}
+
+#projetos div img {
+  max-width: 623px;
+  border-radius: 0.50em;
+}
+
+#projetos div.pe-5 {
+  border-right: 1px solid #DDE1E2;
+}
+
+.btn-link {
+  color: #A66CFF !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.075em;
+  line-height: 3.5em;
+  white-space: nowrap;
+  border: 2px solid #A66CFF;
+  border-radius: 0.375em;
+  padding:  10px 20px !important;
+}
+
+.btn-link:hover {
+  background-color: #ede1ff;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in; 
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in
+}
+
+.container-img img{
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.container-img:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 
+footer {
+  border: none !important;
+  padding: 15px 0 15px 0;
+  background-color: #A66CFF;
+}
+
+footer span {
+  font-family: 'Times New Roman', Times, serif !important;
+}
 
 
 
